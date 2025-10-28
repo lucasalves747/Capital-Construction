@@ -1,4 +1,5 @@
 import { Building2, Mail, Linkedin, Instagram } from "lucide-react";
+import logo from "@/assets/hero-background.jpg"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,7 +14,7 @@ const Footer = () => {
             <div className="space-y-4 lg:col-span-2">
               <div className="flex items-center gap-2">
                 <div className="w-10 h-10 rounded-lg gradient-accent flex items-center justify-center shadow-glow">
-                  <Building2 className="w-6 h-6 text-accent-foreground" />
+                  <img src={logo} alt="" />
                 </div>
                 <span className="text-2xl font-bold">Capital Construction</span>
               </div>

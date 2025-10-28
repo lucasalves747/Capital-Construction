@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-construction.jpg";
+import heroImage from "@/assets/hero-background.jpg";
 
 const Hero = () => {
   return (
@@ -61,13 +61,6 @@ const Hero = () => {
               <div className="text-sm text-primary-foreground/80">Foco em Resultados</div>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary-foreground/30 rounded-full flex items-start justify-center p-2">
-          <div className="w-1 h-3 bg-accent rounded-full" />
         </div>
       </div>
     </section>

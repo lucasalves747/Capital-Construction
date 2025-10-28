@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight } from "lucide-react";
-import mentorImage from "@/assets/valmar-nunes.jpg";
+import mentorImage from "@/assets/fd1d85e9-c032-495f-8e0c-18b291992e85.jpg";
 
 const Mentor = () => {
   const achievements = [
@@ -50,12 +50,8 @@ const Mentor = () => {
                 <h3 className="text-2xl md:text-3xl font-bold text-foreground">
                   Da Construção ao Capital: Uma Jornada de Excelência
                 </h3>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Com mais de duas décadas de experiência no mercado imobiliário dos Estados Unidos, Valmar Nunes construiu uma carreira sólida que une visão de investidor e expertise de construtor.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Sua abordagem única combina análise criteriosa de oportunidades, estruturação inteligente de capital e execução impecável de projetos – gerando centenas de milhões em valor para investidores.
-                </p>
+                
+                
               </div>
 
               {/* Achievements List */}
@@ -76,11 +72,7 @@ const Mentor = () => {
                 <p className="text-sm text-muted-foreground mt-4 font-semibold">— Valmar Nunes</p>
               </div>
 
-              {/* CTA */}
-              <Button size="xl" variant="premium" className="group w-full sm:w-auto">
-                Conhecer a Mentoria
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              
             </div>
           </div>
         </div>
